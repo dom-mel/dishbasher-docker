@@ -7,7 +7,7 @@ You need [docker and docker composer](https://www.docker.com/) to run the quick 
 Just clone & run the docker image - everything will be installed and started for you.
 Make sure port 8080, 8081 and 8082 are not in use.
 ```
-git clone https://github.com/dom-mel/dishbasher-docker.git
+git clone https://github.com/dom-mel/dishwasher-docker.git
 cd dishwasher-docker
 docker-compose up -d
 ```
@@ -25,6 +25,6 @@ The setup contains a minimal setup with some dishwashers pre-configured. I.e. [h
 * **docker-compose exec ui sh**: Get a shell inside the frontend container
  
 # See also
-* [Source of this project](https://github.com/dom-mel/dishbasher-docker)
+* [Source of this project](https://github.com/dom-mel/dishwasher-docker)
 * [Source of the API component](https://github.com/dom-mel/dishwasher-api)
 * [Source of the UI](https://github.com/dom-mel/dishwasher-ui)
